@@ -4,6 +4,7 @@ sum list
 """
 import typing
 
+
 def sum_list(input_list: typing.List[float]) -> float:
     """
     sum list
