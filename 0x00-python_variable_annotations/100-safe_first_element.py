@@ -3,11 +3,10 @@
 safe first element
 """
 import typing
-from types import NoneType
 
 
 def safe_first_element(lst: typing.Sequence[typing.Any])\
-        -> typing.Union[typing.Any, NoneType]:
+        -> typing.Union[typing.Any, None]:
     """
     safe_first_element
     :param lst:

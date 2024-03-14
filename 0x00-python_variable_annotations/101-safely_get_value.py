@@ -3,13 +3,12 @@
 safely_get_value
 """
 import typing
-from types import NoneType
 
 T = typing.TypeVar('T')
 
 
 def safely_get_value(dct: typing.Mapping, key: typing.Any,
-                     default: typing.Union[T, NoneType] = None)\
+                     default: typing.Union[T, None] = None)\
         -> typing.Union[typing.Any, T]:
     """
     safely_get_value
