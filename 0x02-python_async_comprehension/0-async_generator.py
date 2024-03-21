@@ -4,9 +4,10 @@ async generator
 """
 import asyncio
 import random
+import typing
 
 
-async def async_generator() -> float:
+async def async_generator() -> typing.Generator[float, None, None]:
     """
     async generator
     :return:
